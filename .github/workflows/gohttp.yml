@@ -1,4 +1,4 @@
-name: Go Build for Windows
+name: Build Go Client(WCFhttp) for Windows
 
 on:
   push:
