@@ -21,7 +21,8 @@ jobs:
         uses: actions/setup-go@v2
         with:
           go-version: '1.17'     
-
+      - name: Change directory to Go project
+        run: cd clients/gohttp
       - name: Build
         run: go build -ldflags="-s -w" -o WCFhttp.exe .\main.go
   
